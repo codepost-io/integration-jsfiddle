@@ -27,7 +27,17 @@ Clone this repository or copy the python script `jsfiddle_to_codepost.py` to you
 
 You should now see a folder called `codepost_upload`, whose subfolders correspond to students. Any problem files will show up in the `errors` folder.
 
-## 4. Upload to codePost
+```
+codepost_upload/
+   richard@codepost.io/
+      file.js
+   sheldon@codepost.io/
+      file.js
+   alan@codepost.io/
+      file.js
+```
+
+## 3. Upload to codePost
 
 Navigate to [codepost.io](https://codepost.io), log in, and click `Assignments -> Actions -> Upload Submissions -> Multiple Submissions`. Drag `codepost_upload` into codePost and voila.
 
