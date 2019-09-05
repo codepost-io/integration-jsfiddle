@@ -8,9 +8,9 @@ Create a file called `fiddles.txt` that contains a list of all the JSFiddle file
 
 ## 1. Create a roster
 
-Since JSFiddle URLS are indexed by JSFiddle ID, we need to map {JSFiddle ID} to {email} in order to upload to codePost.
+Since JSFiddle URLs are indexed by JSFiddle ID, we need to map {JSFiddle ID} to {email} in order to upload to codePost.
 
-Create a roster.csv with the following information:
+Create a file called `roster.csv` with the following information:
 
 ```
 jsfiddle_id,email
