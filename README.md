@@ -23,9 +23,9 @@ aturing,alan@codepost.io
 
 Clone this repository or copy the python script `jsfiddle_to_codepost.py` to your local machine. Collect this script, `fiddles.txt`, and `roster.csv`into one folder. Then run
 
-`python3 jsfiddle_to_codepost fiddles.txt roster.csv`
+`python3 jsfiddle_to_codepost fiddles.txt roster.csv <name of file>`
 
-You should now see a folder called `codepost_upload`, whose subfolders correspond to students. Any problem files will show up in the `errors` folder.
+You should now see a folder called `codepost_upload`, whose subfolders correspond to students. Any problem files will show up in the `errors` folder. The script will download only the Javascript portion of a Fiddle (but can be extended in the future to download CSS and HTLML, too, as separate files).
 
 ```
 codepost_upload/
